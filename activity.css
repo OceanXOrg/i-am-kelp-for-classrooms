@@ -661,7 +661,7 @@
             }
         }
 
-.page-activity{
+        .page-activity{
             --deep: #002F6C;
             --ocean: #0072CE;
             --kelp: #758647;
@@ -692,7 +692,7 @@
             align-items: center;
             justify-content: space-between;
             gap: 16px;
-            background: #fff;
+            background: #f3f7f5;
             border-radius: 8px;
             box-shadow: 0 2px 14px rgba(6, 59, 67, .1);
             font-size: 12px;
@@ -1475,3 +1475,14 @@
                 page-break-after: auto
             }
         }
+
+/* Final shared document type scale */
+.page-activity .print-bar,
+.page-guide .print-bar { font-size: 12px; }
+.page-activity .print-bar > button,
+.page-guide .print-bar > button { font-size: 11px; }
+.page-guide .body,
+.page-guide .col-copy { font-size: 10px; }
+.page-activity .prompt p,
+.page-activity .investigate p,
+.page-activity .reflect p { font-size: 10px; }
