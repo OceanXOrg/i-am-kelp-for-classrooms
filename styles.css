@@ -479,14 +479,14 @@
             color: var(--foam);
             background: #032e35
         }.page-index .footer-inner{
-            min-height: 190px;
-            padding-block: 3rem;
+            min-height: 110px;
+            padding-block: 1.6rem;
             display: flex;
             align-items: flex-end;
             justify-content: space-between;
             gap: 2rem
         }.page-index .footer-logo{
-            width: 10rem
+            width: 7rem
         }.page-index .footer-copy{
             max-width: 480px;
             margin: 0;
@@ -525,7 +525,7 @@
             }.page-index .accordions{
                 margin-top: 1.8rem
             }.page-index .footer-inner{
-                padding-block: 2.25rem
+                padding-block: 1.2rem
             }.page-index .progress{
                 gap: 1.1rem;
                 padding: .45rem 0
@@ -577,7 +577,7 @@
             }.page-index .resource-grid{
                 margin-top: 1.75rem
             }.page-index .footer-inner{
-                padding-block: 1.75rem;
+                padding-block: 1.2rem;
                 align-items: flex-start;
                 flex-direction: column
             }.page-index .footer-copy{
