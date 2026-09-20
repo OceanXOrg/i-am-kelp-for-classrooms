@@ -409,17 +409,32 @@
         }.page-index .feedback p:last-child{
             margin-bottom: 0;
             color: rgba(243, 245, 233, .76)
+        }.page-index .resources{
+            padding-block: clamp(2rem, 4vw, 3rem)
+        }.page-index .resources h2{
+            font: .9rem/1.4 var(--mono);
+            text-transform: uppercase;
+            letter-spacing: .1em;
+            color: var(--kelp);
+            margin: 0 0 10px
+        }.page-index .resources-title{
+            max-width: 850px;
+            margin: 0;
+            font-weight: 700;
+            font-size: clamp(2.15rem, 5vw, 4.2rem);
+            line-height: 1;
+            letter-spacing: -.045em
         }.page-index .resource-grid{
-            margin-top: 3rem;
+            margin-top: 1rem;
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 1rem
         }.page-index .resource-card{
-            min-height: 245px;
+            min-height: 190px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            padding: clamp(1.4rem, 3vw, 2rem);
+            padding: 1.4rem;
             border: 1px solid var(--line);
             border-radius: var(--radius);
             text-decoration: none;
@@ -437,14 +452,14 @@
             font-family: var(--mono)
         }.page-index .resource-card h3{
             max-width: 25ch;
-            margin: 2.5rem 0 .65rem;
-            font-size: clamp(1.45rem, 2.5vw, 2rem);
-            line-height: 1.08
+            margin: 1.6rem 0 .5rem;
+            font-size: 1.3rem;
+            line-height: 1.15
         }.page-index .resource-card p{
             margin: 0;
             color: var(--muted)
         }.page-index .resource-action{
-            margin-top: 1.6rem;
+            margin-top: 1.2rem;
             font-size: .78rem;
             font-weight: 800;
             letter-spacing: .1em;
