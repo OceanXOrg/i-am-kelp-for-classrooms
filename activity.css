@@ -23,6 +23,7 @@
             background: var(--paper);
             font-family: "Zeist", "Helvetica Neue", Arial, sans-serif;
             font-size: 1rem;
+            font-weight: 300;
             line-height: 1.55;
             -webkit-font-smoothing: antialiased
         }.page-index a{
@@ -161,14 +162,16 @@
             max-width: 760px;
             margin-bottom: 1.2rem;
             font-size: clamp(3.25rem, 8vw, 6.8rem);
-            line-height: .89;
-            letter-spacing: -.055em
+            font-weight: 500;
+            line-height: 1.12;
+            letter-spacing: -.03em
         }.page-index .hero-lead{
             max-width: 680px;
             margin-bottom: 0;
             color: rgba(243, 245, 233, .86);
             font-size: clamp(1.05rem, 2vw, 1.35rem);
-            line-height: 1.45
+            font-weight: 300;
+            line-height: 1.5
         }.page-index main section{
             padding-block: clamp(4rem, 8vw, 7rem)
         }.page-index .overview{
@@ -179,8 +182,9 @@
             max-width: 960px;
             margin: 0;
             font-size: clamp(1.2rem, 2.5vw, 1.75rem);
-            line-height: 1.45;
-            letter-spacing: -.018em
+            font-weight: 300;
+            line-height: 1.6;
+            letter-spacing: 0
         }.page-index .section-kicker{
             margin-bottom: .85rem;
             color: var(--kelp);
@@ -193,8 +197,9 @@
             max-width: 850px;
             margin-bottom: 1.1rem;
             font-size: clamp(2.15rem, 5vw, 4.2rem);
-            line-height: 1;
-            letter-spacing: -.045em
+            font-weight: 500;
+            line-height: 1.15;
+            letter-spacing: -.03em
         }.page-index .intention{
             background: var(--foam)
         }.page-index .intention-grid{
